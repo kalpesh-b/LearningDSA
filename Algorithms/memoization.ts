@@ -1,5 +1,5 @@
 //Memoization (Caching)
-
+// Basic Example
 function memoizedAddTo80(){
   let cache = {};
   return function(n){
@@ -17,6 +17,7 @@ console.log('1 : ',memoized(5));
 console.log('2 : ',memoized(5));
 
 
+// Fibonacci Example
 function memoizedFibonacci(){
   let cache = {};
   return function fib(n){
